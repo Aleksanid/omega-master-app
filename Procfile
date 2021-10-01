@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/omega-master-app.war
+worker: java -jar target/omega-master-app.war
