@@ -1,0 +1,1 @@
+worker: java -jar omega-master-app.war
