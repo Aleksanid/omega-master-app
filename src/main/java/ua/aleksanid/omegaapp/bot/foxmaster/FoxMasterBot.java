@@ -93,7 +93,7 @@ public class FoxMasterBot extends TelegramBot {
 
     private FoxBotCommand toCommand(String text) {
         for (FoxBotCommand foxBotCommand : FoxBotCommand.values()) {
-            if (text.contains(foxBotCommand.getCommand())) {
+            if (text.equalsIgnoreCase(foxBotCommand.getCommand())) {
                 return foxBotCommand;
             }
         }
