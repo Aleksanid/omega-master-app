@@ -1,0 +1,1 @@
+worker: java -jar target/omega-master-app.war

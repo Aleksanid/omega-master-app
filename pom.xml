@@ -12,7 +12,7 @@
 	<artifactId>omega-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>omega-unity</name>
+	<name>omega-app</name>
 	<description>United system for omega</description>
 	<properties>
 		<java.version>16</java.version>
@@ -88,6 +88,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>omega-master-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
